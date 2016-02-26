@@ -6,6 +6,9 @@ This is the patched file applying [1] to [2]
 USAGE:
 
 sudo rmmod ch341
+
 make
+
 sudo insmod ./ch341.ko
+
 sudo cp ./ch341.ko /lib/modules/$(uname -r)/kernel/drivers/usb/serial/
